@@ -11,16 +11,16 @@ class ArticlesController < ApplicationController
         @article = Article.new
     end
 
-    def create
-        @  = Object.new(params[: ])
-        if @ .save
-          flash[:success] = "Object successfully created"
-          redirect_to @ 
-        else
-          flash[:error] = "Something went wrong"
-          render 'new'
-        end
-    end
+    #def create
+    #    @  = Object.new(params[: ])
+    #    if @ .save
+    #      flash[:success] = "Object successfully created"
+    #      redirect_to @ 
+    #    else
+    #      flash[:error] = "Something went wrong"
+    #      render 'new'
+    #    end
+    #end
     
     
 end
